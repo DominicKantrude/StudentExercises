@@ -1,6 +1,6 @@
 namespace StudentExercises
 {
-    class Instructor
+    class Instructor : NSSPerson
     {
         private string _firstName;
         private string _lastName;

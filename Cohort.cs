@@ -10,10 +10,17 @@ namespace StudentExercises
         {
             _name = name;
         }
-        List<Student> studentsInCohort = new List<Student>();
+        List<Student> _studentsInCohort = new List<Student>();
         List<Instructor> instructorsInCohort = new List<Instructor>();
 
-
+        public List<Student> studentsInCohort
+        {
+            get { return _studentsInCohort; }
+        }
+        public string name
+        {
+            get { return _name; }
+        }
         public void assignInstructorToCohort(Instructor instructor)
         {
             instructorsInCohort.Add(instructor);

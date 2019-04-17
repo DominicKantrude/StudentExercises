@@ -11,6 +11,14 @@ namespace StudentExercises
             _language = language;
         }
 
+        public string excercise{
+            get{return _exercise;}
+        }
+
+        public string language{
+            get{return _language;}
+        }
+
         public override string ToString()
         {
             return $@"
